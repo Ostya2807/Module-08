@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemoSuite" parallel="tests" thread-count="1">
+
+    <test name="LoginTestParallel">
+        <classes>
+            <class name="com.saucetests.tests.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test name="InventoryTestParallel">
+        <classes>
+            <class name="com.saucetests.tests.InventoryPageTest"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutTestParallel">
+        <classes>
+            <class name="com.saucetests.tests.CheckoutStepOnePageTest"/>
+        </classes>
+    </test>
+
+</suite>
