@@ -24,15 +24,13 @@ d
 4src/test/java/com/saucetests/tests/CartPageTest.java,3\d\3d4fcb282b0adcf0c39802a65d102cb20741c64f
 e
 5src/main/java/com/test/pages/CheckoutStepTwoPage.java,b\2\b24f0164c4cb8015a84d233de42f4c5c73b730f4
-k
-;src/test/java/com/saucetests/tests/CheckoutStepTwoPage.java,9\a\9a0dd37747017857fc72f80869da230d38372c78
 o
 ?src/test/java/com/saucetests/tests/CheckoutStepTwoPageTest.java,6\7\6779b01f8edae3588fb0662e7ddcf3b78856f360
 f
 6src/main/java/com/test/pages/CheckoutCompletePage.java,e\7\e733d096c3c0d09e5c07579ba3300002fed40933
-l
-<src/test/java/com/saucetests/tests/CheckoutCompletePage.java,a\2\a2e6894d0322bf3043ca4866bdcab96231a097f1
 p
 @src/test/java/com/saucetests/tests/CheckoutCompletePageTest.java,3\3\338c39bf1305bd1b7ce4ad291d7abad5a505a282
 
 Q.idea/sonarlint/securityhotspotstore/c/8/c8f20ee01ff23164802b8ac2c1fa62383473456a,e\7\e7a79b0001627e3b167d1de16baf2cb250b5c7dd
+X
+(src/main/java/com/test/pages/faszom.java,6\1\615279c9bf5ffcbd4bd4a06c2075bc44e663efc9

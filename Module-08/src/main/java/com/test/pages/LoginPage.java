@@ -18,7 +18,7 @@ public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,this);
     }
 
     public void login(String username, String password) {
