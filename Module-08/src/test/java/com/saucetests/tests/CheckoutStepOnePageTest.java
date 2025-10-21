@@ -6,7 +6,7 @@ import com.test.pages.InventoryPage;
 import com.test.pages.LoginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -18,19 +18,15 @@ public class CheckoutStepOnePageTest {
     protected CheckoutStepOnePage checkoutStepOnePage;
     private final String URL = "https://www.saucedemo.com/";
 
-    @BeforeClass
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
-
-    @AfterClass
+    @AfterMethod
     public void tearDown() {
         driver.quit();
     }
     @BeforeMethod
     public void loadApplication(){
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
         driver.get(URL);
         loginPage = new LoginPage(driver);
         inventoryPage = new InventoryPage(driver);
